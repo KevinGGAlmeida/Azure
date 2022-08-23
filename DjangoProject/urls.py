@@ -18,11 +18,13 @@ from django.urls import path,include
 from rest_framework import routers
 from Repositorio import views
 
+
 Router = routers.DefaultRouter()
 Router.register(r'Repositorio',views.ViewRepositorio,'Repositorio')
 Router.register(r'Categoria',views.ViewCategoria,'Categoria')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include(Router.urls)),
+    path('api/',include(Router.urls)),
+    path('',views.Index)
 ]

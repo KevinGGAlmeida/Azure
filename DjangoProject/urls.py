@@ -24,5 +24,5 @@ Router.register(r'Categoria',views.ViewCategoria,'Categoria')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/',include(Router.urls)),
+    path('',include(Router.urls)),
 ]

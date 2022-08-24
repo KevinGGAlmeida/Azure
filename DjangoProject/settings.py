@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@t=!#k$xco%*8qsb^f4#nyxdm-vy@ql2!z&4w0x3(*iv$)_143
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['webapplicationkevinn.azurewebsites.net/']
+ALLOWED_HOSTS = ['webapplicationkevinn.azurewebsites.net']
 
 
 # Application definition
